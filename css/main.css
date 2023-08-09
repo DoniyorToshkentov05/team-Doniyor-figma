@@ -7,12 +7,6 @@
 
 .o-nas {
   width: 1520px;
-  background: var(--gray-6, #FAFAFA);
-  height: 2900px;
-<<<<<<< HEAD
-  margin: 0 auto;
-=======
->>>>>>> origin/isfandiyor
 }
 
 .box__black {
@@ -815,30 +809,12 @@ a:hover::before {
 .tovar .header__nav .nav__logo {
   width: 1440px;
   height: 40px;
-<<<<<<< HEAD
-
-  background-color: black;
-  display: flex;
-}
-.tovar .header__nav .nav__logo .p1 {
-  color: white;
-  padding-left: 110px;
-}
-.tovar .header__nav .nav__logo .p2 {
-  color: rgba(255, 255, 255, 0.3019607843);
-
-=======
->>>>>>> origin/isfandiyor
   border: 1px solid;
   background-color: black;
   display: flex;
 }
 .tovar .header__nav .nav__logo p {
   color: beige;
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/isfandiyor
   padding-left: 110px;
 }
 .tovar .header__nav .nav__list {
@@ -847,44 +823,13 @@ a:hover::before {
   display: flex;
   align-items: center;
   justify-content: space-around;
-<<<<<<< HEAD
-  box-shadow: 0px 14px 64px -4px rgba(24, 39, 75, 0.1215686275);
-  box-shadow: 0px 8px 22px -6px rgba(24, 39, 75, 0.1215686275);
-
   background-color: beige;
-
-=======
-  background-color: beige;
->>>>>>> origin/isfandiyor
 }
 .tovar .header__nav .nav__list .list__item {
   display: flex;
   list-style: none;
   gap: 20px;
 }
-<<<<<<< HEAD
-.tovar .header__nav .nav__list .list__logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 20px;
-}
-.tovar .header__nav .nav__list .list__logo .zar {
-  background: #FFC000;
-  border-radius: 4px;
-  padding: 4px 4px;
-  border: none;
-}
-.tovar .header__nav .nav__list .list__logo .vayti {
-  left: 940px;
-  padding: 4px 8px 4px 8px;
-  border-radius: 4px;
-  border: none;
-}
-.tovar .hero {
-
-=======
->>>>>>> origin/isfandiyor
 .tovar .header__nav .nav__list .list__logo .zar {
   background-color: yellow;
   border-radius: 4px;
@@ -897,69 +842,29 @@ a:hover::before {
   border-radius: 4px;
 }
 .tovar .header .hero {
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/isfandiyor
   width: 1146px;
   height: 602px;
   margin: 0 auto;
   display: flex;
 }
-<<<<<<< HEAD
-
-.tovar .hero .hero__image {
-
 .tovar .header .hero .hero__image {
-
-=======
-.tovar .header .hero .hero__image {
->>>>>>> origin/isfandiyor
   width: 50%;
   height: 100%;
   grid-row-start: 1;
   grid-row-end: 4;
 }
-<<<<<<< HEAD
-
-.tovar .hero .hero__image .imgs2 {
-  display: flex;
-  flex-direction: row;
-  gap: 14.5px;
-  margin-top: 10px;
-  align-items: center;
-}
-.tovar .hero .hero__image .imgs2 .img2 {
-  width: 104px !important;
-  height: 104px !important;
-}
-.tovar .hero .hero__image .hero__text {
-  width: 50%;
-  height: 100%;
-}
-.tovar .hero .hero__image .hero__text .lorem5 {
-=======
 .tovar .header .hero .hero__text {
   width: 50%;
   height: 100%;
 }
 .tovar .header .hero .hero__text .lorem5 {
->>>>>>> origin/isfandiyor
   font-family: Montserrat;
   font-size: 34px;
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 0.25px;
 }
-<<<<<<< HEAD
-
-.tovar .hero .hero__image .hero__text .dob {
-
 .tovar .header .hero .hero__text .dob {
-
-=======
-.tovar .header .hero .hero__text .dob {
->>>>>>> origin/isfandiyor
   width: 360px;
   height: 40px;
   font-family: Montserrat;
@@ -970,29 +875,13 @@ a:hover::before {
   text-align: center;
   background: #FFC000;
 }
-<<<<<<< HEAD
-
-.tovar .hero .hero__image .hero__text .bis {
-
 .tovar .header .hero .hero__text .bis {
-
-=======
-.tovar .header .hero .hero__text .bis {
->>>>>>> origin/isfandiyor
   width: 360px;
   height: 40px;
   background-color: rgb(143, 138, 138);
   text-align: center;
 }
-<<<<<<< HEAD
-
-.tovar .hero .hero__image .hero__text .pre {
-
 .tovar .header .hero .hero__text .pre {
-
-=======
-.tovar .header .hero .hero__text .pre {
->>>>>>> origin/isfandiyor
   width: 199px;
   height: 34px;
   font-family: Montserrat;
@@ -1002,15 +891,7 @@ a:hover::before {
   letter-spacing: 0em;
   text-align: left;
 }
-<<<<<<< HEAD
-
-.tovar .hero .hero__image .hero__text .box {
-
 .tovar .header .hero .hero__text .box {
-
-=======
-.tovar .header .hero .hero__text .box {
->>>>>>> origin/isfandiyor
   width: 330px;
   height: 70px;
   display: flex;
@@ -1022,26 +903,11 @@ a:hover::before {
   margin: 0 auto;
   display: flex;
   gap: 25px;
-<<<<<<< HEAD
-
-}
-.tovar .section__product .product_box {
-  border-radius: 12px;
-  width: 264px;
-  height: 542px;
-  box-shadow: 0px 0px 98px 0px rgba(0, 0, 0, 0.0509803922);
-
-=======
->>>>>>> origin/isfandiyor
   background-color: beige;
 }
 .tovar .section__product .product_box {
   width: 264px;
   height: 532px;
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/isfandiyor
 }
 .tovar .section__product .product_box p {
   width: 245px;
@@ -1068,26 +934,13 @@ a:hover::before {
   width: 1146px;
   height: 400px;
   margin: 0 auto;
-<<<<<<< HEAD
-
-
   background-color: beige;
-
-=======
-  background-color: beige;
->>>>>>> origin/isfandiyor
 }
 .tovar .container .wear_box {
   display: flex;
 }
 .tovar .container .wear_box .wear {
   width: 265px;
-<<<<<<< HEAD
-
-  margin-left: 20px;
-
-=======
->>>>>>> origin/isfandiyor
 }
 .tovar .container .wear_box .wear p {
   font-family: Montserrat;
@@ -1178,6 +1031,7 @@ a:hover::before {
   width: 50%;
   display: flex;
 }
+
 input {
   width: 460px;
   height: 60px;
@@ -1230,7 +1084,6 @@ label {
 .container {
   margin: 0 auto;
 }
-
 
 .oformlenie {
   width: 1520px;
@@ -2513,6 +2366,5 @@ label {
     display: none;
   }
 }
-
 
 /*# sourceMappingURL=main.css.map */

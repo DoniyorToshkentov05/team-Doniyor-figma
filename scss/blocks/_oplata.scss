@@ -1,0 +1,118 @@
+
+.oplata{
+    width: 1520px;
+    height: 1000px;
+    background-color: #fafafa;
+    margin: 0 auto;
+
+}
+.til{
+    width: 1520px;
+    height: 40px;
+  
+    background-color: black;
+    color: white;
+    
+}
+.til h5{
+    margin-left: 200px;
+}
+.logo{
+width: 150px;
+height: 80px;   
+display: flex;
+margin-left: 200px;
+
+}
+.logo-list{
+    width: 800px;
+    height: 50px;
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+    
+}
+.logo-list2{
+    width: 400px;
+    height: 50px;
+    display: flex;
+  margin-left: 250px;
+  margin-top: 15px;
+}
+.Зарегистрироваться{
+    background-color: #FFC000;
+}
+.tolov{
+width: 23%;
+
+margin-left: 350px;
+.img{
+    width: 366px;
+    height: 366px;
+}
+
+}
+.plastik{
+    margin-top: 50px;
+    width: 50%;
+    display: flex;
+
+}
+
+
+    
+input{
+    width: 460px;
+    height: 60px;
+    top: 264px;
+    left: 833px;
+    margin-top: 20px;
+}
+label{
+    width: 300px;
+    height: 21px;
+    top: 448px;
+    left: 833px;
+    
+}
+.plastik-list{
+margin-left: 500px;
+margin-top: -300px;
+}
+.Оплатить{
+    margin-top: 20px;
+    width: 460px;
+    height: 59px;
+    top: 571px;
+    left: 833px;
+    background: #FFC000;
+
+}
+.about{
+    margin-left: 200px;
+}
+.kantak{
+    margin-left: 500px;
+   
+}
+.about{
+  margin-top: 100px;
+    display: flex;
+
+    gap:100px;
+    
+}
+
+
+@media screen and (max-width:812px) {
+    oplata{
+        display: grid;
+        width: 100%;
+    }
+
+
+    
+}
+
