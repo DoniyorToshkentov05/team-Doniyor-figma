@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 .glavnaya {
   width: 1520px;
 }
@@ -998,8 +1000,1290 @@ a:hover::before {
   width: 1520px;
 }
 
+.container {
+  margin: 0 auto;
+}
+
 .oformlenie {
   width: 1520px;
+  height: 2865px;
+  background: #fafafa;
+}
+.oformlenie .oformlenie-top {
+  width: 100%;
+  height: 40px;
+  background-color: #0d0d0d;
+}
+.oformlenie .oformlenie-top .oformlenie-top-info {
+  display: flex;
+}
+.oformlenie .oformlenie-top .oformlenie-top-info h5 {
+  margin-left: 147px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.oformlenie .oformlenie-top .oformlenie-top-info h4 {
+  margin-top: 17px;
+  margin-left: 8px;
+  color: rgba(255, 255, 255, 0.3);
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.oformlenie nav {
+  display: flex;
+  width: 100%;
+  height: 72px;
+  box-shadow: 0px 14px 64px -4px rgba(24, 39, 75, 0.12), 0px 8px 22px -6px rgba(24, 39, 75, 0.12);
+}
+.oformlenie nav .nav-logo {
+  width: 20%;
+  height: 100%;
+}
+.oformlenie nav .nav-logo h2 {
+  margin-left: 145px;
+  color: #0d0d0d;
+  font-family: "Poppins", sans-serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 140%;
+  letter-spacing: 0.4px;
+}
+.oformlenie nav .nav-list {
+  display: flex;
+  margin-left: 98px;
+  width: 70%;
+  height: 100%;
+}
+.oformlenie nav .nav-list .menu {
+  display: none;
+}
+.oformlenie nav .nav-list .brand {
+  display: none;
+}
+.oformlenie nav .nav-list ul {
+  margin-top: 26px;
+  list-style: none;
+  display: flex;
+  column-gap: 24px;
+}
+.oformlenie nav .nav-list ul li {
+  color: #000;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 140%;
+  letter-spacing: 0.1px;
+}
+.oformlenie nav .nav-list .nav-btn1 {
+  margin-top: 21px;
+  margin-left: 223px;
+  width: 70px;
+  height: 30px;
+  padding: 4px 8px;
+  color: #0d0d0d;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.05);
+  border: none;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 140%;
+  letter-spacing: 0.44px;
+}
+.oformlenie nav .nav-list .nav-btn2 {
+  margin-top: 21px;
+  margin-left: 15px;
+  width: 197px;
+  height: 30px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: #ffc000;
+  border: none;
+  color: #0d0d0d;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 140%;
+  letter-spacing: 0.44px;
+}
+.oformlenie nav .nav-list img {
+  margin-top: 20px;
+  margin-left: 39px;
+  width: 32px;
+  height: 32px;
+}
+.oformlenie .oformlenie-zakaz {
+  width: 100%;
+  height: 600px;
+}
+.oformlenie .oformlenie-zakaz .oformlenie-zakaz-top {
+  margin-top: 54px;
+  width: 100%;
+  height: 10%;
+}
+.oformlenie .oformlenie-zakaz .oformlenie-zakaz-top h1 {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 140%;
+  letter-spacing: 0.25px;
+}
+.oformlenie .oformlenie-zakaz .oformlenie-zakaz-main {
+  display: flex;
+}
+.oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-left {
+  margin-top: 80px;
+  width: 45%;
+  height: 60%;
+}
+.oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-left .oformlenie-summa {
+  margin-left: 147px;
+  width: 460px;
+  height: 113px;
+  background: #ffc000;
+}
+.oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-left .oformlenie-summa .oformlenie-summa-top {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: space-between;
+}
+.oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-left .oformlenie-summa .oformlenie-summa-top h4 {
+  margin-top: 3px;
+  color: #0d0d0d;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0.15px;
+}
+.oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-left .oformlenie-summa .oformlenie-summa-top h5 {
+  margin-top: 3px;
+  color: #0d0d0d;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0.15px;
+}
+.oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-left .oformlenie-summa .oformlenie-summa-bottom {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-left .oformlenie-summa .oformlenie-summa-bottom h4 {
+  margin-top: 5px;
+  color: #0d0d0d;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0.15px;
+}
+.oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-left .oformlenie-summa .oformlenie-summa-bottom h5 {
+  margin-top: 5px;
+  color: #0d0d0d;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0.15px;
+}
+.oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-left .payment {
+  display: flex;
+  margin-top: 48px;
+  margin-left: 147px;
+  width: 460px;
+  height: 60px;
+  column-gap: 48px;
+}
+.oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-right {
+  margin-top: 58px;
+  margin-left: 144px;
+  width: 37%;
+  height: 400px;
+}
+.oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-right input {
+  margin-top: 24px;
+  width: 558px;
+  height: 59px;
+  background: #f1f1f1;
+  border: none;
+  color: rgba(0, 0, 0, 0.4);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.44px;
+}
+.oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-right .right-btn {
+  margin-top: 24px;
+  width: 560px;
+  height: 62px;
+  background: #ffc000;
+  border: none;
+  color: #0d0d0d;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 140%;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+}
+.oformlenie .vash-zakaz {
+  width: 100%;
+  height: 800px;
+  gap: 24px;
+}
+.oformlenie .vash-zakaz h2 {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 140%;
+  letter-spacing: 0.25px;
+}
+.oformlenie .vash-zakaz .zakaz1 {
+  margin-top: 24px;
+  display: flex;
+  margin-left: 147px;
+  width: 1246px;
+  height: 295px;
+  border-radius: 12px;
+  background: #fff;
+}
+.oformlenie .vash-zakaz .zakaz1 .zakaz1-info {
+  width: 100%;
+  height: 100%;
+}
+.oformlenie .vash-zakaz .zakaz1 .zakaz1-info .zakaz1-info-name {
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.oformlenie .vash-zakaz .zakaz1 .zakaz1-info .zakaz1-info-name h3 {
+  color: #040921;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 140%;
+}
+.oformlenie .vash-zakaz .zakaz1 .zakaz1-info .zakaz1-info-name img {
+  margin-top: 30px;
+  margin-right: 20px;
+  width: 24px;
+  height: 24px;
+}
+.oformlenie .vash-zakaz .zakaz1 .zakaz1-info img {
+  margin-top: 43px;
+  margin-left: 30px;
+}
+.oformlenie .vash-zakaz .zakaz1 .zakaz1-info p {
+  width: 754px;
+  margin-top: 8px;
+  margin-left: 30px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  letter-spacing: 0.25px;
+}
+.oformlenie .vash-zakaz .zakaz1 .zakaz1-info .price {
+  margin-left: 30px;
+  display: flex;
+}
+.oformlenie .vash-zakaz .zakaz1 .zakaz1-info .price h4 {
+  color: #0d0d0d;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.44px;
+}
+.oformlenie .vash-zakaz .zakaz1 .zakaz1-info .price h5 {
+  margin-left: 40px;
+  margin-top: 20px;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 24px;
+}
+.oformlenie .vash-zakaz .zakaz1 .zakaz1-info .price h5 span {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.44px;
+}
+.oformlenie .vash-zakaz .zakaz1 .zakaz1-info .price .add {
+  display: flex;
+}
+.oformlenie .vash-zakaz .zakaz1 .zakaz1-info .price .add .trash {
+  display: none;
+}
+.oformlenie .vash-zakaz .zakaz1 .zakaz1-info .price .add img {
+  width: 167px;
+  height: 37px;
+  margin-top: 10px;
+  margin-left: 500px;
+}
+.oformlenie .vash-zakaz .zakaz2 {
+  margin-top: 24px;
+  display: none;
+  margin-left: 147px;
+  width: 1246px;
+  height: 295px;
+  border-radius: 12px;
+  background: #fff;
+}
+.oformlenie .vash-zakaz .zakaz2 .zakaz1-info {
+  width: 100%;
+  height: 100%;
+}
+.oformlenie .vash-zakaz .zakaz2 .zakaz1-info .zakaz1-info-name {
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.oformlenie .vash-zakaz .zakaz2 .zakaz1-info .zakaz1-info-name h3 {
+  color: #040921;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 140%;
+}
+.oformlenie .vash-zakaz .zakaz2 .zakaz1-info .zakaz1-info-name img {
+  margin-top: 30px;
+  margin-right: 20px;
+  width: 24px;
+  height: 24px;
+}
+.oformlenie .vash-zakaz .zakaz2 .zakaz1-info img {
+  margin-top: 43px;
+  margin-left: 30px;
+}
+.oformlenie .vash-zakaz .zakaz2 .zakaz1-info p {
+  width: 754px;
+  margin-top: 8px;
+  margin-left: 30px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  letter-spacing: 0.25px;
+}
+.oformlenie .vash-zakaz .zakaz2 .zakaz1-info .price {
+  margin-left: 30px;
+  display: flex;
+}
+.oformlenie .vash-zakaz .zakaz2 .zakaz1-info .price h4 {
+  color: #0d0d0d;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.44px;
+}
+.oformlenie .vash-zakaz .zakaz2 .zakaz1-info .price h5 {
+  margin-left: 40px;
+  margin-top: 20px;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 24px;
+}
+.oformlenie .vash-zakaz .zakaz2 .zakaz1-info .price h5 span {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.44px;
+}
+.oformlenie .vash-zakaz .zakaz2 .zakaz1-info .price .add {
+  display: flex;
+}
+.oformlenie .vash-zakaz .zakaz2 .zakaz1-info .price .add .trash {
+  display: none;
+}
+.oformlenie .vash-zakaz .zakaz2 .zakaz1-info .price .add img {
+  width: 167px;
+  height: 37px;
+  margin-top: 10px;
+  margin-left: 500px;
+}
+.oformlenie .magazini {
+  margin-top: 64px;
+  width: 100%;
+  height: 250px;
+}
+.oformlenie .magazini h2 {
+  margin-left: 704px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 140%;
+  letter-spacing: 0.25px;
+}
+.oformlenie .magazini .magazini-cards {
+  margin-left: 147px;
+  column-gap: 61px;
+  display: flex;
+}
+.oformlenie .magazini .magazini-cards .magazini-card {
+  width: 264px;
+  height: 107px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.oformlenie .magazini .magazini-cards .magazini-card .card-pic4 {
+  margin-top: 29px;
+  margin-left: 59px;
+}
+.oformlenie .magazini .magazini-cards .magazini-card .card-pic {
+  margin-top: 36px;
+  margin-left: 16px;
+}
+.oformlenie .magazini .magazini-cards .magazini-card .card-pic2 {
+  margin-top: 18px;
+  margin-left: 76px;
+}
+.oformlenie .magazini .magazini-cards .magazini-card .card-pic3 {
+  margin-top: 29px;
+  margin-left: 52px;
+}
+.oformlenie .kategori {
+  margin-top: 60px;
+  width: 100%;
+  height: 600px;
+}
+.oformlenie .kategori h2 {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 140%;
+  letter-spacing: 0.25px;
+}
+.oformlenie .kategori .kategori-brands {
+  margin-left: 147px;
+  display: flex;
+  column-gap: 37px;
+}
+.oformlenie .kategori .kategori-brands .odejda {
+  width: 216px;
+  height: 80px;
+  border-radius: 8px;
+  background: #ffc000;
+}
+.oformlenie .kategori .kategori-brands .odejda h3 {
+  color: #0d0d0d;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0.15px;
+}
+.oformlenie .kategori .kategori-brands .brand1 {
+  width: 215px;
+  height: 80px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.oformlenie .kategori .kategori-brands .brand1 img {
+  margin-top: 17px;
+  margin-left: 53px;
+}
+.oformlenie .kategori .kategori-brands .brand2 {
+  width: 215px;
+  height: 80px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.oformlenie .kategori .kategori-brands .brand2 img {
+  margin-top: 13px;
+  margin-left: 32px;
+}
+.oformlenie .kategori .kategori-brands .brand3 {
+  width: 215px;
+  height: 80px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.oformlenie .kategori .kategori-brands .brand3 img {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.oformlenie .kategori .kategori-brands .brand4 {
+  width: 215px;
+  height: 80px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.oformlenie .kategori .kategori-brands .brand4 img {
+  margin-top: 21px;
+  margin-left: 20px;
+}
+.oformlenie .kategori .kategori-brands-2 {
+  margin-top: 24px;
+  margin-left: 147px;
+  display: flex;
+  column-gap: 37px;
+  row-gap: 24px;
+}
+.oformlenie .kategori .kategori-brands-2 .odejda {
+  width: 216px;
+  height: 80px;
+  border-radius: 8px;
+  background: #ffc000;
+}
+.oformlenie .kategori .kategori-brands-2 .odejda h3 {
+  color: #0d0d0d;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0.15px;
+}
+.oformlenie .kategori .kategori-brands-2 .brand1 {
+  width: 215px;
+  height: 80px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.oformlenie .kategori .kategori-brands-2 .brand1 img {
+  margin-top: 28px;
+  margin-left: 26px;
+}
+.oformlenie .kategori .kategori-brands-2 .brand2 {
+  width: 215px;
+  height: 80px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.oformlenie .kategori .kategori-brands-2 .brand2 img {
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.oformlenie .kategori .kategori-brands-2 .brand3 {
+  width: 215px;
+  height: 80px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.oformlenie .kategori .kategori-brands-2 .brand3 img {
+  margin-top: 12px;
+  margin-left: 23px;
+}
+.oformlenie .kategori .kategori-brands-2 .brand4 {
+  width: 215px;
+  height: 80px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.oformlenie .kategori .kategori-brands-2 .brand4 img {
+  margin-top: 21px;
+  margin-left: 20px;
+}
+.oformlenie .kategori .kategori-brands-3 {
+  margin-top: 24px;
+  margin-left: 147px;
+  display: flex;
+  column-gap: 37px;
+  row-gap: 24px;
+}
+.oformlenie .kategori .kategori-brands-3 .odejda {
+  width: 216px;
+  height: 80px;
+  border-radius: 8px;
+  background: #ffc000;
+}
+.oformlenie .kategori .kategori-brands-3 .odejda h3 {
+  color: #0d0d0d;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0.15px;
+}
+.oformlenie .kategori .kategori-brands-3 .brand1 {
+  width: 215px;
+  height: 80px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.oformlenie .kategori .kategori-brands-3 .brand1 img {
+  margin-top: 17px;
+  margin-left: 53px;
+}
+.oformlenie .kategori .kategori-brands-3 .brand2 {
+  width: 215px;
+  height: 80px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.oformlenie .kategori .kategori-brands-3 .brand2 img {
+  margin-top: 22px;
+  margin-left: 22px;
+}
+.oformlenie .kategori .kategori-brands-3 .brand3 {
+  width: 215px;
+  height: 80px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.oformlenie .kategori .kategori-brands-3 .brand3 img {
+  margin-top: 22px;
+  margin-left: 21px;
+}
+.oformlenie .kategori .kategori-brands-3 .brand4 {
+  width: 215px;
+  height: 80px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.oformlenie .kategori .kategori-brands-3 .brand4 img {
+  margin-top: 21px;
+  margin-left: 20px;
+}
+.oformlenie .kategori .kategori-brands-4 {
+  margin-top: 24px;
+  margin-left: 147px;
+  display: flex;
+  column-gap: 37px;
+  row-gap: 24px;
+}
+.oformlenie .kategori .kategori-brands-4 .odejda {
+  width: 216px;
+  height: 80px;
+  border-radius: 8px;
+  background: #ffc000;
+}
+.oformlenie .kategori .kategori-brands-4 .odejda h3 {
+  margin-top: 12px;
+  margin-left: 16px;
+  width: 184px;
+  color: #0d0d0d;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0.15px;
+}
+.oformlenie .kategori .kategori-brands-4 .brand1 {
+  width: 215px;
+  height: 80px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.oformlenie .kategori .kategori-brands-4 .brand1 img {
+  margin-top: 11px;
+  margin-left: 74px;
+}
+.oformlenie .kategori .kategori-brands-4 .brand2 {
+  width: 215px;
+  height: 80px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.oformlenie .kategori .kategori-brands-4 .brand2 img {
+  margin-top: 30px;
+  margin-left: 18px;
+}
+.oformlenie .kategori .kategori-brands-4 .brand3 {
+  width: 215px;
+  height: 80px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.oformlenie .kategori .kategori-brands-4 .brand3 img {
+  margin-top: 12px;
+  margin-left: 77px;
+}
+.oformlenie .kategori .kategori-brands-4 .brand4 {
+  width: 215px;
+  height: 80px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.oformlenie .kategori .kategori-brands-4 .brand4 img {
+  margin-top: 21px;
+  margin-left: 20px;
+}
+.oformlenie footer {
+  display: flex;
+  width: 100%;
+  height: 323px;
+}
+.oformlenie footer .imperia {
+  margin-left: 146px;
+  width: 270px;
+  height: 80%;
+}
+.oformlenie footer .imperia h3 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 140%;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+}
+.oformlenie footer .imperia p {
+  width: 265px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0.25px;
+}
+.oformlenie footer .kontakti {
+  margin-left: 29px;
+}
+.oformlenie footer .kontakti h3 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 140%;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+}
+.oformlenie footer .kontakti h4 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 160%;
+  letter-spacing: 0.25px;
+}
+.oformlenie footer .kontakti p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: 0.25px;
+}
+.oformlenie footer .kontakti .raboche-vremya {
+  margin-top: 38px;
+}
+.oformlenie footer .kontakti .raboche-vremya h3 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 140%;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+}
+.oformlenie footer .kontakti .raboche-vremya h4 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 160%;
+  letter-spacing: 0.25px;
+}
+.oformlenie footer .kontakti .raboche-vremya h5 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 160%;
+  letter-spacing: 0.25px;
+}
+.oformlenie footer .menu {
+  margin-left: 205px;
+}
+.oformlenie footer .menu h3 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+}
+.oformlenie footer .menu ul {
+  list-style: none;
+  margin-left: -40px;
+}
+.oformlenie footer .menu ul li {
+  margin-top: 10px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 160%;
+  letter-spacing: 0.25px;
+}
+.oformlenie footer .kategorii {
+  margin-left: 193px;
+}
+.oformlenie footer .kategorii h3 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 140%;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+}
+.oformlenie footer .kategorii ul {
+  margin-left: -40px;
+  list-style: none;
+}
+.oformlenie footer .kategorii ul li {
+  margin-top: 10px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 375px) {
+  .oformlenie {
+    width: 355px;
+    height: 5094px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .oformlenie .oformlenie-top {
+    display: none;
+  }
+  .oformlenie nav {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    width: 95%;
+    justify-content: space-between;
+  }
+  .oformlenie nav .nav-logo {
+    display: none;
+  }
+  .oformlenie nav .nav-list {
+    display: flex;
+    align-items: center;
+    width: 95%;
+  }
+  .oformlenie nav .nav-list ul {
+    display: none;
+  }
+  .oformlenie nav .nav-list button {
+    display: none;
+  }
+  .oformlenie nav .nav-list .menu {
+    display: flex;
+    margin-left: -80px;
+  }
+  .oformlenie nav .nav-list .brand {
+    display: flex;
+    margin-left: 16px;
+  }
+  .oformlenie nav .nav-list img {
+    margin-top: -10px;
+    margin-left: 180px;
+  }
+  .oformlenie .oformlenie-zakaz {
+    width: 95%;
+  }
+  .oformlenie .oformlenie-zakaz h1 {
+    margin-top: 5px;
+  }
+  .oformlenie .oformlenie-zakaz .oformlenie-zakaz-main {
+    display: block;
+  }
+  .oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-left {
+    width: 100%;
+  }
+  .oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-left .oformlenie-summa {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-left .oformlenie-summa .oformlenie-summa-top {
+    display: flex;
+    margin-left: 15px;
+    width: 90%;
+  }
+  .oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-left .oformlenie-summa .oformlenie-summa-top h5 {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-left .oformlenie-summa .oformlenie-summa-top h4 {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-left .oformlenie-summa .oformlenie-summa-bottom {
+    display: flex;
+    margin-left: 15px;
+    width: 90%;
+  }
+  .oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-left .oformlenie-summa .oformlenie-summa-bottom h5 {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-left .oformlenie-summa .oformlenie-summa-bottom h4 {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-left .payment {
+    width: 90%;
+    margin-left: 10px;
+  }
+  .oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-left .payment img {
+    width: 123px;
+    height: 39px;
+  }
+  .oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-right {
+    width: 100%;
+    margin-left: 0;
+  }
+  .oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-right input {
+    width: 95%;
+    margin-left: 5px;
+  }
+  .oformlenie .oformlenie-zakaz .oformlenie-zakaz-main .oformlenie-zakaz-right .right-btn {
+    width: 100%;
+  }
+  .oformlenie .vash-zakaz {
+    margin-top: 300px;
+    width: 100%;
+    height: 500px;
+  }
+  .oformlenie .vash-zakaz .zakaz1 {
+    margin-left: 0;
+    width: 95%;
+    height: 108px;
+  }
+  .oformlenie .vash-zakaz .zakaz1 img {
+    width: 85px;
+    height: 108px;
+    border-radius: 12px;
+  }
+  .oformlenie .vash-zakaz .zakaz1 .zakaz1-info {
+    width: 100%;
+  }
+  .oformlenie .vash-zakaz .zakaz1 .zakaz1-info .zakaz1-info-name {
+    width: 90%;
+  }
+  .oformlenie .vash-zakaz .zakaz1 .zakaz1-info .zakaz1-info-name h3 {
+    font-size: 14px;
+  }
+  .oformlenie .vash-zakaz .zakaz1 .zakaz1-info .zakaz1-info-name img {
+    display: none;
+  }
+  .oformlenie .vash-zakaz .zakaz1 .zakaz1-info img {
+    display: none;
+  }
+  .oformlenie .vash-zakaz .zakaz1 .zakaz1-info p {
+    display: none;
+  }
+  .oformlenie .vash-zakaz .zakaz1 .zakaz1-info .price {
+    flex-wrap: wrap;
+    margin-top: -35px;
+  }
+  .oformlenie .vash-zakaz .zakaz2 {
+    display: flex;
+    margin-left: 0;
+    width: 95%;
+    height: 108px;
+  }
+  .oformlenie .vash-zakaz .zakaz2 img {
+    width: 85px;
+    height: 108px;
+    border-radius: 12px;
+  }
+  .oformlenie .vash-zakaz .zakaz2 .zakaz1-info {
+    width: 100%;
+  }
+  .oformlenie .vash-zakaz .zakaz2 .zakaz1-info .zakaz1-info-name {
+    width: 90%;
+  }
+  .oformlenie .vash-zakaz .zakaz2 .zakaz1-info .zakaz1-info-name h3 {
+    font-size: 14px;
+  }
+  .oformlenie .vash-zakaz .zakaz2 .zakaz1-info .zakaz1-info-name img {
+    display: none;
+  }
+  .oformlenie .vash-zakaz .zakaz2 .zakaz1-info img {
+    display: none;
+  }
+  .oformlenie .vash-zakaz .zakaz2 .zakaz1-info p {
+    display: none;
+  }
+  .oformlenie .vash-zakaz .zakaz2 .zakaz1-info .price {
+    flex-wrap: wrap;
+    margin-top: -35px;
+  }
+  .oformlenie .magazini {
+    width: 100%;
+    height: 600px;
+  }
+  .oformlenie .magazini h2 {
+    margin-left: -10px;
+    text-align: center;
+  }
+  .oformlenie .magazini .magazini-cards {
+    margin-left: 1px;
+    display: block;
+    width: 100%;
+  }
+  .oformlenie .magazini .magazini-cards .magazini-card {
+    margin-left: 35px;
+    margin-top: 16px;
+    width: 80%;
+  }
+  .oformlenie .kategori {
+    width: 100%;
+    height: 6000px;
+  }
+  .oformlenie .kategori .kategori-brands {
+    margin-left: 10px;
+    width: 100%;
+    display: block;
+  }
+  .oformlenie .kategori .kategori-brands .odejda {
+    display: flex;
+    width: 95%;
+  }
+  .oformlenie .kategori .kategori-brands .odejda h3 {
+    margin-top: 20px;
+    margin-left: 130px;
+  }
+  .oformlenie .kategori .kategori-brands .brand1 {
+    margin-top: 16px;
+    width: 95%;
+  }
+  .oformlenie .kategori .kategori-brands .brand1 img {
+    margin-left: 120px;
+  }
+  .oformlenie .kategori .kategori-brands .brand2 {
+    margin-top: 16px;
+    width: 95%;
+  }
+  .oformlenie .kategori .kategori-brands .brand2 img {
+    margin-left: 100px;
+  }
+  .oformlenie .kategori .kategori-brands .brand3 {
+    margin-top: 16px;
+    width: 95%;
+  }
+  .oformlenie .kategori .kategori-brands .brand3 img {
+    margin-left: 90px;
+  }
+  .oformlenie .kategori .kategori-brands .brand4 {
+    margin-top: 16px;
+    width: 95%;
+  }
+  .oformlenie .kategori .kategori-brands .brand4 img {
+    margin-left: 80px;
+  }
+  .oformlenie .kategori .kategori-brands-2 {
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 100%;
+    display: block;
+  }
+  .oformlenie .kategori .kategori-brands-2 .odejda {
+    display: flex;
+    width: 95%;
+  }
+  .oformlenie .kategori .kategori-brands-2 .odejda h3 {
+    margin-top: 25px;
+    margin-left: 90px;
+  }
+  .oformlenie .kategori .kategori-brands-2 .brand1 {
+    margin-top: 16px;
+    width: 95%;
+  }
+  .oformlenie .kategori .kategori-brands-2 .brand1 img {
+    margin-left: 100px;
+  }
+  .oformlenie .kategori .kategori-brands-2 .brand2 {
+    margin-top: 16px;
+    width: 95%;
+  }
+  .oformlenie .kategori .kategori-brands-2 .brand2 img {
+    margin-left: 90px;
+  }
+  .oformlenie .kategori .kategori-brands-2 .brand3 {
+    margin-top: 16px;
+    width: 95%;
+  }
+  .oformlenie .kategori .kategori-brands-2 .brand3 img {
+    margin-left: 90px;
+  }
+  .oformlenie .kategori .kategori-brands-2 .brand4 {
+    margin-top: 16px;
+    width: 95%;
+  }
+  .oformlenie .kategori .kategori-brands-2 .brand4 img {
+    margin-left: 90px;
+  }
+  .oformlenie .kategori .kategori-brands-3 {
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 100%;
+    display: block;
+  }
+  .oformlenie .kategori .kategori-brands-3 .odejda {
+    display: flex;
+    width: 95%;
+  }
+  .oformlenie .kategori .kategori-brands-3 .odejda h3 {
+    margin-top: 25px;
+    margin-left: 140px;
+  }
+  .oformlenie .kategori .kategori-brands-3 .brand1 {
+    margin-top: 16px;
+    width: 95%;
+  }
+  .oformlenie .kategori .kategori-brands-3 .brand1 img {
+    margin-left: 120px;
+  }
+  .oformlenie .kategori .kategori-brands-3 .brand2 {
+    margin-top: 16px;
+    width: 95%;
+  }
+  .oformlenie .kategori .kategori-brands-3 .brand2 img {
+    margin-left: 90px;
+  }
+  .oformlenie .kategori .kategori-brands-3 .brand3 {
+    margin-top: 16px;
+    width: 95%;
+  }
+  .oformlenie .kategori .kategori-brands-3 .brand3 img {
+    margin-left: 100px;
+  }
+  .oformlenie .kategori .kategori-brands-3 .brand4 {
+    margin-top: 16px;
+    width: 95%;
+  }
+  .oformlenie .kategori .kategori-brands-3 .brand4 img {
+    margin-left: 90px;
+  }
+  .oformlenie .kategori .kategori-brands-4 {
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 100%;
+    display: block;
+  }
+  .oformlenie .kategori .kategori-brands-4 .odejda {
+    display: flex;
+    width: 95%;
+  }
+  .oformlenie .kategori .kategori-brands-4 .odejda h3 {
+    margin-top: 15px;
+    margin-left: 80px;
+  }
+  .oformlenie .kategori .kategori-brands-4 .brand1 {
+    margin-top: 16px;
+    width: 95%;
+  }
+  .oformlenie .kategori .kategori-brands-4 .brand1 img {
+    margin-left: 150px;
+  }
+  .oformlenie .kategori .kategori-brands-4 .brand2 {
+    margin-top: 16px;
+    width: 95%;
+  }
+  .oformlenie .kategori .kategori-brands-4 .brand2 img {
+    margin-left: 90px;
+  }
+  .oformlenie .kategori .kategori-brands-4 .brand3 {
+    margin-top: 16px;
+    width: 95%;
+  }
+  .oformlenie .kategori .kategori-brands-4 .brand3 img {
+    margin-left: 140px;
+  }
+  .oformlenie .kategori .kategori-brands-4 .brand4 {
+    margin-top: 16px;
+    width: 95%;
+  }
+  .oformlenie .kategori .kategori-brands-4 .brand4 img {
+    margin-left: 90px;
+  }
+  .oformlenie .footer {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
