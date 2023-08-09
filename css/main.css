@@ -22,12 +22,15 @@
 .tovar .header__nav .nav__logo {
   width: 1440px;
   height: 40px;
-  border: 1px solid;
   background-color: black;
   display: flex;
 }
-.tovar .header__nav .nav__logo p {
-  color: beige;
+.tovar .header__nav .nav__logo .p1 {
+  color: white;
+  padding-left: 110px;
+}
+.tovar .header__nav .nav__logo .p2 {
+  color: rgba(255, 255, 255, 0.3019607843);
   padding-left: 110px;
 }
 .tovar .header__nav .nav__list {
@@ -36,48 +39,67 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: beige;
+  box-shadow: 0px 14px 64px -4px rgba(24, 39, 75, 0.1215686275);
+  box-shadow: 0px 8px 22px -6px rgba(24, 39, 75, 0.1215686275);
 }
 .tovar .header__nav .nav__list .list__item {
   display: flex;
   list-style: none;
   gap: 20px;
 }
+.tovar .header__nav .nav__list .list__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
 .tovar .header__nav .nav__list .list__logo .zar {
-  background-color: yellow;
+  background: #FFC000;
   border-radius: 4px;
   padding: 4px 4px;
+  border: none;
 }
 .tovar .header__nav .nav__list .list__logo .vayti {
-  top: 61px;
   left: 940px;
   padding: 4px 8px 4px 8px;
   border-radius: 4px;
+  border: none;
 }
-.tovar .header .hero {
+.tovar .hero {
   width: 1146px;
   height: 602px;
   margin: 0 auto;
   display: flex;
 }
-.tovar .header .hero .hero__image {
+.tovar .hero .hero__image {
   width: 50%;
   height: 100%;
   grid-row-start: 1;
   grid-row-end: 4;
 }
-.tovar .header .hero .hero__text {
+.tovar .hero .hero__image .imgs2 {
+  display: flex;
+  flex-direction: row;
+  gap: 14.5px;
+  margin-top: 10px;
+  align-items: center;
+}
+.tovar .hero .hero__image .imgs2 .img2 {
+  width: 104px !important;
+  height: 104px !important;
+}
+.tovar .hero .hero__image .hero__text {
   width: 50%;
   height: 100%;
 }
-.tovar .header .hero .hero__text .lorem5 {
+.tovar .hero .hero__image .hero__text .lorem5 {
   font-family: Montserrat;
   font-size: 34px;
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 0.25px;
 }
-.tovar .header .hero .hero__text .dob {
+.tovar .hero .hero__image .hero__text .dob {
   width: 360px;
   height: 40px;
   font-family: Montserrat;
@@ -88,13 +110,13 @@
   text-align: center;
   background: #FFC000;
 }
-.tovar .header .hero .hero__text .bis {
+.tovar .hero .hero__image .hero__text .bis {
   width: 360px;
   height: 40px;
   background-color: rgb(143, 138, 138);
   text-align: center;
 }
-.tovar .header .hero .hero__text .pre {
+.tovar .hero .hero__image .hero__text .pre {
   width: 199px;
   height: 34px;
   font-family: Montserrat;
@@ -104,7 +126,7 @@
   letter-spacing: 0em;
   text-align: left;
 }
-.tovar .header .hero .hero__text .box {
+.tovar .hero .hero__image .hero__text .box {
   width: 330px;
   height: 70px;
   display: flex;
@@ -116,12 +138,12 @@
   margin: 0 auto;
   display: flex;
   gap: 25px;
-  background-color: beige;
 }
 .tovar .section__product .product_box {
+  border-radius: 12px;
   width: 264px;
-  height: 532px;
-  border: 1px solid;
+  height: 542px;
+  box-shadow: 0px 0px 98px 0px rgba(0, 0, 0, 0.0509803922);
 }
 .tovar .section__product .product_box p {
   width: 245px;
@@ -148,13 +170,13 @@
   width: 1146px;
   height: 400px;
   margin: 0 auto;
-  background-color: beige;
 }
 .tovar .container .wear_box {
   display: flex;
 }
 .tovar .container .wear_box .wear {
   width: 265px;
+  margin-left: 20px;
 }
 .tovar .container .wear_box .wear p {
   font-family: Montserrat;
@@ -171,7 +193,6 @@
 .tovar .fotter .title {
   width: 260px;
   height: 225px;
-  border: 1px solid;
 }
 
 .filter {
