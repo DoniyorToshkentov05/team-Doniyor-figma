@@ -1,3 +1,54 @@
 .xudi{
     width: 1520px;
 }
+.content {
+    width: 1440px;
+    height: 112px;
+    background: black;
+    color: white;
+    display: flex;
+  }
+  .content h3 {
+    color: white;
+  }
+  .contener li {
+    width: 1440px;
+    height: 72px;
+    top: 40px;
+    text-align: right;
+    padding: 10px;
+  }
+  .btn-1 {
+    margin: -50px;
+    padding: 0 auto;
+    display: flex;
+    list-style-type: none;
+    background: white;
+  }
+  
+  section h1 {
+    text-align: center;
+  }
+  
+  .img {
+    margin: 0%;
+    padding: 71px;
+    width: 658px;
+    height: 394px;
+    top: 303px;
+    left: 62px;
+  }
+  .text-list li {
+    width: 555px;
+    height: 60px;
+    top: 264px;
+    left: 780px;
+    text-align: left;
+  }
+  .text-list button {
+    background: rgba(255, 192, 0, 1);
+    width: 262px;
+    height: 60px;
+    top: 676px;
+    left: 780px;
+  }
